@@ -1,0 +1,32 @@
+port_bedwars:
+  location: Lobby, 26.458, 72.200, -61.504
+  lines:
+  - '&4&lBEDWARS'
+port_calderara:
+  location: Lobby, 16.448, 72.200, -61.272
+  lines:
+  - '&b&lCALDERARA'
+  - '&b&la'
+  - '&b&lCUBETTI'
+welcome:
+  location: Lobby, -5.755, 70.495, 16.130
+  lines:
+  - '&b&lFUTUR&f&lLAB'
+  - '&l&rBenvenuti nel server'
+port_lobby_calderara:
+  location: calderara_cubetti, 26.059, 7.116, 583.950
+  lines:
+  - '&d&lLobby'
+port_lobby_bedwars:
+  location: bedwars, 0.298, 99.373, -7.676
+  lines:
+  - '&b&lLOBBY'
+bedwars_exit:
+  location: bedwars, 0.619, 99.743, -4.700
+  lines:
+  - '&c&lEXIT'
+direction_port:
+  location: Lobby, 3.731, 69.164, 10.769
+  lines:
+  - '&6&lPORTALI'
+  - '&f&l a sinistra'

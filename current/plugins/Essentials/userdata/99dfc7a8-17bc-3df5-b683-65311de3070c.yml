@@ -1,0 +1,21 @@
+lastAccountName: GABRIEL
+timestamps:
+  login: 1652538354828
+  logout: 1652543426762
+  lastteleport: 1651931613442
+ipAddress: 10.8.0.46
+lastlocation:
+  world: calderara_cubetti
+  x: 65.02347390254157
+  y: 39.907601850358866
+  z: 495.89608739796756
+  yaw: -22.934326
+  pitch: 35.00683
+logoutlocation:
+  world: calderara_cubetti
+  x: 149.2467319992618
+  y: 4.0
+  z: 523.9959443177222
+  yaw: -76.16916
+  pitch: 4.9069843
+afk: false

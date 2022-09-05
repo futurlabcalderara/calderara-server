@@ -1,0 +1,41 @@
+portals:
+  port_bedwars:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: MVgamer140
+    location: 25.0,69.0,-63.0:27.0,72.0,-63.0
+    world: Lobby
+    destination: bedwars
+  port_calderara:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: MVgamer140
+    location: 15.0,69.0,-63.0:17.0,72.0,-63.0
+    world: Lobby
+    destination: calderara_cubetti
+  port_lobby_calderara:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: MVgamer140
+    location: 25.0,5.0,585.0:26.0,7.0,585.0
+    world: calderara_cubetti
+    destination: Lobby
+  port_lobby_bedwars:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: MVgamer140
+    location: 0.0,98.0,-10.0:0.0,100.0,-10.0
+    world: bedwars
+    destination: Lobby
