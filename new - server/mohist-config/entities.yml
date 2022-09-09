@@ -79,3 +79,15 @@ overrides:
     skip-every: default
   net-minecraft-entity-projectile-TridentEntity:
     skip-every: default
+  net-minecraft-entity-passive-StriderEntity:
+    skip-every: default
+  net-minecraft-entity-projectile-SmallFireballEntity:
+    skip-every: default
+  net-minecraft-entity-projectile-FireworkRocketEntity:
+    skip-every: default
+  net-minecraft-entity-item-ItemFrameEntity:
+    skip-every: default
+  net-minecraft-entity-projectile-WitherSkullEntity:
+    skip-every: default
+  net-minecraft-entity-projectile-FishingBobberEntity:
+    skip-every: default

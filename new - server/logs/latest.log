@@ -1,435 +1,413 @@
-[12:13:34] [main/INFO] [STDOUT/]: Update in check...
-[12:13:34] [main/INFO] [STDOUT/]: If you don't want to enable update check, set check_update in mohist-config/mohist.yml to false
-[12:13:35] [main/INFO] [STDOUT/]: No update found, latest version: (1.16.5-1073) current version: (1.16.5-1073)
-[12:13:35] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.mohistVersion, 1073, --fml.forgeVersion, 36.2.39, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, com.mohistmc]
-[12:13:35] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.1.3+8.1.3+main-8.1.x.c94d18ec starting: java version 1.8.0_341 by Oracle Corporation
-[12:13:35] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[12:13:35] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/C:/Users/nasti/Desktop/server/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
-[12:13:36] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, .]
-[12:13:37] [main/INFO] [STDERR/]: [org.slf4j.helpers.Util:report:128]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
-[12:13:37] [main/INFO] [STDERR/]: [org.slf4j.helpers.Util:report:128]: SLF4J: Defaulting to no-operation (NOP) logger implementation
-[12:13:37] [main/INFO] [STDERR/]: [org.slf4j.helpers.Util:report:128]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-[12:13:47] [modloading-worker-3/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.39, for MC 1.16.5 with MCP 20210115.111550
-[12:13:47] [modloading-worker-3/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.39 Initialized
-[12:13:47] [modloading-worker-3/INFO] [com.mohistmc.MohistMC/]: EventDispatcherRegistry initialized
-[12:13:51] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[12:13:52] [main/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack file/ucraina, loading it automatically
-[12:13:53] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, bukkit, mohist-1.16.5-1073-universal.jar, ucraina
-[12:13:55] [Worker-Main-8/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 927 recipes
-[12:13:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
-[12:13:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[12:13:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: CREATIVE
-[12:13:57] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[12:13:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25.565
-[12:13:57] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using default channel type
-[12:14:00] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[12:14:00] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[12:14:00] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[12:14:00] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[12:14:00] [Server thread/INFO] [Minecraft/]: This server is running Mohist version 1.16.5-1073 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT, Forge version 36.2.39)
-[12:14:01] [Server thread/INFO] [Minecraft/]: Debug logging is enabled
-[12:14:01] [Server thread/INFO] [/]: Server Ping Player Sample Count: 12
-[12:14:01] [Server thread/INFO] [Minecraft/]: Using 4 threads for Netty based IO
-[12:14:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "calderara"
-[12:14:04] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
-[12:14:04] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[12:14:05] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[12:14:06] [Netty Server IO #1/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
-[12:14:06] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 73%
-[12:14:06] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 2.466 ms
-[12:14:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (3.834s)! For help, type "help"
-[12:14:06] [Server thread/INFO] [Minecraft/]: Timings Reset
-[12:14:14] [User Authenticator #1/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player MVGamer140 is 8cb7272b-0c91-3052-b690-d98e61593ded
-[12:14:15] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: MVGamer140[/127.0.0.1:55947] logged in with entity id 5 at (25,5, 5, 553,5)
-[12:14:22] [User Authenticator #2/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player M4G0delbosco is 3f01670c-6f40-3bf7-b119-1b1ebf959e98
-[12:14:23] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: M4G0delbosco[/10.8.0.110:54111] logged in with entity id 6 at (25,5, 5, 553,5)
-[12:14:31] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /op MVGamer140
-[12:14:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Made MVGamer140 a server operator]
-[12:14:45] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /time set midnight
-[12:14:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Set the time to 18000]
-[12:14:54] [Server thread/INFO] [/]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
-[12:14:54] [Server thread/INFO] [/]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
-[12:14:54] [Server thread/INFO] [Minecraft/]: Debug logging is enabled
-[12:14:54] [Server thread/INFO] [/]: Server Ping Player Sample Count: 12
-[12:14:54] [Server thread/INFO] [Minecraft/]: Using 4 threads for Netty based IO
-[12:14:54] [Server thread/INFO] [Minecraft/]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand()
-[12:14:54] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, bukkit, mohist-1.16.5-1073-universal.jar, ucraina
-[12:14:55] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 927 recipes
-[12:14:55] [Server thread/INFO] [Minecraft/]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand()
-[12:14:55] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, bukkit, mohist-1.16.5-1073-universal.jar, ucraina
-[12:14:56] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 927 recipes
-[12:14:57] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
-[12:14:57] [Server thread/INFO] [/]: CONSOLE: Reload complete.
-[12:14:57] [Server thread/INFO] [Minecraft/]: Timings Reset
-[12:15:15] [Server thread/INFO] [/]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
-[12:15:15] [Server thread/INFO] [/]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
-[12:15:15] [Server thread/INFO] [Minecraft/]: Debug logging is enabled
-[12:15:15] [Server thread/INFO] [/]: Server Ping Player Sample Count: 12
-[12:15:15] [Server thread/INFO] [Minecraft/]: Using 4 threads for Netty based IO
-[12:15:15] [Server thread/INFO] [Minecraft/]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand()
-[12:15:15] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, bukkit, mohist-1.16.5-1073-universal.jar, ucraina
-[12:15:16] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 927 recipes
-[12:15:16] [Server thread/INFO] [Minecraft/]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand()
-[12:15:16] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, bukkit, mohist-1.16.5-1073-universal.jar, ucraina
-[12:15:17] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 927 recipes
-[12:15:18] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
-[12:15:18] [Server thread/INFO] [/]: CONSOLE: Reload complete.
-[12:15:18] [Server thread/INFO] [Minecraft/]: Timings Reset
-[12:15:44] [Server thread/INFO] [/]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
-[12:15:44] [Server thread/INFO] [/]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
-[12:15:44] [Server thread/INFO] [Minecraft/]: Debug logging is enabled
-[12:15:44] [Server thread/INFO] [/]: Server Ping Player Sample Count: 12
-[12:15:44] [Server thread/INFO] [Minecraft/]: Using 4 threads for Netty based IO
-[12:15:44] [Server thread/INFO] [Minecraft/]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand()
-[12:15:44] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, bukkit, mohist-1.16.5-1073-universal.jar
-[12:15:44] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 927 recipes
-[12:15:44] [Server thread/INFO] [Minecraft/]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand()
-[12:15:44] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, bukkit, mohist-1.16.5-1073-universal.jar
-[12:15:45] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 927 recipes
-[12:15:46] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
-[12:15:46] [Server thread/INFO] [/]: CONSOLE: Reload complete.
-[12:15:46] [Server thread/INFO] [Minecraft/]: Timings Reset
-[12:18:53] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVGamer140 lost connection: Disconnected
-[12:18:53] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: MVGamer140 left the game
-[12:23:18] [User Authenticator #3/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player MVGamer140 is 8cb7272b-0c91-3052-b690-d98e61593ded
-[12:23:18] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: MVGamer140[/127.0.0.1:49517] logged in with entity id 7 at (66,424, 4, 522,29)
-[12:23:54] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVGamer140 lost connection: Disconnected
-[12:23:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: MVGamer140 left the game
-[12:25:46] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /weather rain
-[12:25:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Set the weather to rain]
-[12:27:14] [User Authenticator #4/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player MVgamer140 is b467d275-fde6-38fe-8e41-6b90dbefdd81
-[12:27:37] [Spigot Watchdog Thread/ERROR] [Minecraft/]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - 1.16.5-1073 (MC: 1.16.5) ---
-[12:27:27] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@30a1cbe1[id=b467d275-fde6-38fe-8e41-6b90dbefdd81,name=MVgamer140,properties={},legacy=false] (/127.0.0.1:61291) lost connection: Disconnected
-[12:28:29] [Spigot Watchdog Thread/ERROR] [Minecraft/]: The server has not responded for 10 seconds! Creating thread dump
-[12:28:29] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
-[12:28:29] [Spigot Watchdog Thread/ERROR] [Minecraft/]: Server thread dump (Look for plugins here before reporting to Mohist!):
-[12:28:29] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco lost connection: Disconnected
-[12:28:29] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
-[12:28:29] [Spigot Watchdog Thread/ERROR] [Minecraft/]: Current Thread:Server thread
-[12:28:29] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	PID: 43 | Suspended:false | Native:false | State:RUNNABLE
-[12:28:29] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 	Stack:
-[12:28:29] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.io.DataOutputStream.writeDouble(Unknown Source)
-[12:28:29] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.nbt.DoubleNBT.func_74734_a(SourceFile:59)
-[12:28:29] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.nbt.CompoundNBT.func_150298_a(CompoundNBT.java:408)
-[12:28:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: M4G0delbosco left the game
-[12:28:29] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.nbt.CompoundNBT.func_74734_a(CompoundNBT.java:84)
-[12:28:29] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.nbt.ListNBT.func_74734_a(SourceFile:91)
-[12:28:29] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.nbt.CompoundNBT.func_150298_a(CompoundNBT.java:408)
-[12:28:29] [User Authenticator #5/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player M4G0delbosco is 3f01670c-6f40-3bf7-b119-1b1ebf959e98
-[12:28:29] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.nbt.CompoundNBT.func_74734_a(CompoundNBT.java:84)
-[12:28:29] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.nbt.CompressedStreamTools.func_150663_a(CompressedStreamTools.java:103)
-[12:28:29] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.nbt.CompressedStreamTools.func_74800_a(CompressedStreamTools.java:96)
-[12:28:29] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.nbt.CompressedStreamTools.func_74799_a(CompressedStreamTools.java:50)
-[12:28:29] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.nbt.CompressedStreamTools.func_244264_a(CompressedStreamTools.java:43)
-[12:28:29] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.world.storage.PlayerData.func_237335_a_(PlayerData.java:36)
-[12:28:29] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.server.management.PlayerList.func_72391_b(PlayerList.java:367)
-[12:28:29] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.server.management.PlayerList.func_72367_e(PlayerList.java:401)
-[12:28:29] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.server.management.PlayerList.disconnect(PlayerList.java:381)
-[12:28:29] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.network.play.ServerPlayNetHandler.func_147231_a(ServerPlayNetHandler.java:1536)
-[12:28:29] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.network.NetworkManager.func_179293_l(NetworkManager.java:386)
-[12:28:29] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:161)
-[12:28:29] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:1113)
-[12:28:29] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:338)
-[12:28:29] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:1003)
-[12:28:29] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:818)
-[12:28:29] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:269)
-[12:28:29] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		net.minecraft.server.MinecraftServer$$Lambda$4299/1959822280.run(Unknown Source)
-[12:28:29] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@606d3e52[id=3f01670c-6f40-3bf7-b119-1b1ebf959e98,name=M4G0delbosco,properties={},legacy=false] (/10.8.0.110:49890) lost connection: Disconnected
-[12:28:29] [Spigot Watchdog Thread/ERROR] [Minecraft/]: 		java.lang.Thread.run(Unknown Source)
-[12:28:29] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
-[12:28:29] [Spigot Watchdog Thread/ERROR] [Minecraft/]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[12:28:29] [Spigot Watchdog Thread/ERROR] [Minecraft/]: ------------------------------
-[12:28:39] [Server thread/INFO] [/]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
-[12:28:39] [Server thread/INFO] [/]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
-[12:28:39] [Server thread/INFO] [Minecraft/]: Debug logging is enabled
-[12:28:39] [Server thread/INFO] [/]: Server Ping Player Sample Count: 12
-[12:28:39] [Server thread/INFO] [Minecraft/]: Using 4 threads for Netty based IO
-[12:28:39] [Server thread/INFO] [Minecraft/]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand()
-[12:28:39] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, bukkit, mohist-1.16.5-1073-universal.jar
-[12:28:40] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 927 recipes
-[12:28:40] [Server thread/INFO] [Minecraft/]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand()
-[12:28:40] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, bukkit, mohist-1.16.5-1073-universal.jar
-[12:28:41] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 927 recipes
-[12:28:41] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
-[12:28:41] [Server thread/INFO] [/]: CONSOLE: Reload complete.
-[12:28:41] [Server thread/INFO] [Minecraft/]: Timings Reset
-[12:28:47] [User Authenticator #6/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player M4G0delbosco is 3f01670c-6f40-3bf7-b119-1b1ebf959e98
-[12:28:47] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: M4G0delbosco[/10.8.0.110:50015] logged in with entity id 11 at (68,191, 4, 524,33)
-[12:28:50] [User Authenticator #7/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player MVgamer140 is b467d275-fde6-38fe-8e41-6b90dbefdd81
-[12:28:50] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: MVgamer140[/127.0.0.1:61330] logged in with entity id 12 at (25,5, 5, 553,5)
-[12:30:12] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /weather clear
-[12:30:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Set the weather to clear]
-[12:33:57] [Async Chat Thread - 2/INFO] [/]: <M4G0delbosco> *op MVgamer140
-[12:34:01] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /op MVgamer140
-[12:34:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Made MVgamer140 a server operator]
-[12:34:10] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /time set day
-[12:34:10] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [MVgamer140: Set the time to 1000]
-[12:40:04] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /time set night
-[12:40:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [MVgamer140: Set the time to 13000]
-[12:41:38] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco moved too quickly! -13,644,-4,588,12,637
-[12:46:38] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /time set night
-[12:46:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [MVgamer140: Set the time to 13000]
-[12:46:45] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /time set night
-[12:46:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [MVgamer140: Set the time to 13000]
-[12:46:46] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /time set night
-[12:46:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [MVgamer140: Set the time to 13000]
-[12:46:47] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /time set night
-[12:46:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [MVgamer140: Set the time to 13000]
-[12:46:52] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /time set midnight
-[12:46:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Set the time to 18000]
-[12:50:08] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /fill 39 4 547
-[12:50:16] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /fill 39 4 547 22 6 555 air
-[12:50:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Successfully filled 225 blocks]
-[12:52:15] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /time set night
-[12:52:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Set the time to 13000]
-[12:52:18] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /time set noon
-[12:52:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Set the time to 6000]
-[12:54:54] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /gamemode spectator
-[12:54:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Set own game mode to Spectator Mode]
-[12:54:55] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /gamemode creative
-[12:54:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Set own game mode to Creative Mode]
-[13:01:23] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /time set midnight
-[13:01:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Set the time to 18000]
-[13:08:51] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /summon minecraft:lightning_bolt
-[13:08:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Summoned new Lightning Bolt]
-[13:09:02] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /gamerule doFireTick false
-[13:09:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Gamerule doFireTick is now set to: false]
-[13:10:08] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /give M4G0delbosco minecraft:armor_stand
-[13:10:08] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Gave 1 [Armor Stand] to M4G0delbosco]
-[13:10:38] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /give M4G0delbosco minecraft:armor_stand
-[13:10:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Gave 1 [Armor Stand] to M4G0delbosco]
-[13:10:50] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /give @p armor_stand{EntityTag:{Invulnerable:1b,Invisible:1b}} 1
-[13:10:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Gave 1 [Armor Stand] to M4G0delbosco]
-[13:11:37] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /tag @e[type=armor_stand] add .
-[13:11:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Added tag '.' to 2 entities]
-[13:11:42] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /give M4G0delbosco minecraft:command_block
-[13:11:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Gave 1 [Command Block] to M4G0delbosco]
-[13:13:13] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /execute as @e[type=armor_stand] run summon minecraft:lightning_bolt ~ ~ ~
-[13:13:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Armor Stand: Summoned new Lightning Bolt]
-[13:13:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Armor Stand: Summoned new Lightning Bolt]
-[13:13:21] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /execute at @e[type=armor_stand] run summon minecraft:lightning_bolt ~ ~ ~
-[13:13:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Summoned new Lightning Bolt]
-[13:13:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Summoned new Lightning Bolt]
-[13:13:25] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /execute at @e[type=armor_stand] run summon minecraft:lightning_bolt ~ ~ ~
-[13:13:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Summoned new Lightning Bolt]
-[13:13:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Summoned new Lightning Bolt]
-[13:13:26] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /execute at @e[type=armor_stand] run summon minecraft:lightning_bolt ~ ~ ~
-[13:13:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Summoned new Lightning Bolt]
-[13:13:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Summoned new Lightning Bolt]
-[13:13:26] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /execute at @e[type=armor_stand] run summon minecraft:lightning_bolt ~ ~ ~
-[13:13:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Summoned new Lightning Bolt]
-[13:13:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Summoned new Lightning Bolt]
-[13:14:14] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /execute at @e[type=armor_stand] run summon minecraft:lightning_bolt ~ ~ ~
-[13:14:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Summoned new Lightning Bolt]
-[13:14:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Summoned new Lightning Bolt]
-[13:14:36] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /give M4G0delbosco minecraft:barrier
-[13:14:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Gave 1 [Barrier] to M4G0delbosco]
-[13:18:01] [Server thread/WARN] [net.minecraft.entity.Entity/]: Failed to parse entity custom name TEST
-com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 1 path $
-	at com.google.gson.internal.Streams.parse(Streams.java:60) ~[server-1.16.5-20210115.111550-extra.jar:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:65) ~[server-1.16.5-20210115.111550-extra.jar:?]
-	at net.minecraft.util.JSONUtils.func_188173_a(SourceFile:493) ~[?:?]
-	at net.minecraft.util.JSONUtils.func_188176_a(SourceFile:517) ~[?:?]
-	at net.minecraft.util.text.ITextComponent$Serializer.func_240643_a_(ITextComponent.java:347) ~[?:?]
-	at net.minecraft.entity.Entity.func_70020_e(Entity.java:1693) ~[?:?]
-	at net.minecraft.entity.EntityType.func_208048_a(EntityType.java:406) ~[?:?]
-	at net.minecraft.entity.EntityType.func_220349_b(EntityType.java:380) ~[?:?]
-	at net.minecraft.entity.EntityType.spawn(EntityType.java:343) ~[?:?]
-	at net.minecraft.entity.EntityType.func_220342_a(EntityType.java:338) ~[?:?]
-	at net.minecraft.entity.EntityType.func_220331_a(EntityType.java:332) ~[?:?]
-	at net.minecraft.dispenser.IDispenseItemBehavior$9.func_82487_b(IDispenseItemBehavior.java:208) ~[?:?]
-	at net.minecraft.dispenser.DefaultDispenseItemBehavior.dispense(DefaultDispenseItemBehavior.java:17) ~[?:?]
-	at net.minecraft.block.DispenserBlock.func_176439_d(DispenserBlock.java:86) ~[?:?]
-	at net.minecraft.block.DispenserBlock.func_225534_a_(DispenserBlock.java:109) ~[?:?]
-	at net.minecraft.block.AbstractBlock$AbstractBlockState.func_227033_a_(AbstractBlock.java:620) ~[?:?]
-	at net.minecraft.world.server.ServerWorld.lambda$tickBlock_bukkit$10(ServerWorld.java:808) ~[?:?]
-	at java.util.Optional.ifPresent(Unknown Source) ~[?:1.8.0_341]
-	at net.minecraft.world.server.ServerWorld.tickBlock_bukkit(ServerWorld.java:805) ~[?:?]
-	at net.minecraft.world.server.ServerTickList.func_205365_a(ServerTickList.java:96) ~[?:?]
-	at net.minecraft.world.server.ServerWorld.func_72835_b(ServerWorld.java:501) ~[?:?]
-	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:1090) ~[?:?]
+[18:37:51] [main/INFO] [STDOUT/]: Update in check...
+[18:37:51] [main/INFO] [STDOUT/]: If you don't want to enable update check, set check_update in mohist-config/mohist.yml to false
+[18:37:54] [main/INFO] [STDOUT/]: The latest Mohist version is 1.16.5-1078 but you have 1.16.5-1073. The latest version has been built on 2022-09-06 13:54:15. You should update to fix recent bugs !
+[18:37:54] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.mohistVersion, 1073, --fml.forgeVersion, 36.2.39, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, com.mohistmc]
+[18:37:54] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.1.3+8.1.3+main-8.1.x.c94d18ec starting: java version 1.8.0_341 by Oracle Corporation
+[18:37:55] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[18:37:55] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/C:/Users/nasti/Desktop/github/calderara-server/new%20-%20server/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
+[18:37:58] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, .]
+[18:38:00] [main/INFO] [STDERR/]: [org.slf4j.helpers.Util:report:128]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+[18:38:00] [main/INFO] [STDERR/]: [org.slf4j.helpers.Util:report:128]: SLF4J: Defaulting to no-operation (NOP) logger implementation
+[18:38:00] [main/INFO] [STDERR/]: [org.slf4j.helpers.Util:report:128]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[18:38:24] [modloading-worker-3/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.39, for MC 1.16.5 with MCP 20210115.111550
+[18:38:24] [modloading-worker-3/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.39 Initialized
+[18:38:25] [modloading-worker-3/INFO] [com.mohistmc.MohistMC/]: EventDispatcherRegistry initialized
+[18:38:36] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:38:37] [main/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack file/ucraina, loading it automatically
+[18:38:39] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, bukkit, mohist-1.16.5-1073-universal.jar, ucraina
+[18:38:47] [Worker-Main-10/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 927 recipes
+[18:38:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
+[18:38:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[18:38:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: CREATIVE
+[18:38:50] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[18:38:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25.565
+[18:38:51] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using default channel type
+[18:38:54] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:38:54] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[18:38:54] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:38:54] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:38:55] [Server thread/INFO] [Minecraft/]: This server is running Mohist version 1.16.5-1073 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT, Forge version 36.2.39)
+[18:38:56] [Server thread/INFO] [Minecraft/]: Debug logging is enabled
+[18:38:56] [Server thread/INFO] [/]: Server Ping Player Sample Count: 12
+[18:38:56] [Server thread/INFO] [Minecraft/]: Using 4 threads for Netty based IO
+[18:39:11] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit] Loading WorldEdit v7.2.5+57d5ac9
+[18:39:27] [Server thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@52eb5e0f]
+[18:39:27] [Server thread/INFO] [com.gmail.filoghost.holographicdisplays.HolographicDisplays/]: [HolographicDisplays] Loading HolographicDisplays v2.4.6
+[18:39:27] [Server thread/INFO] [com.earth2me.essentials.Essentials/]: [Essentials] Loading Essentials v2.18.2.0
+[18:39:27] [Server thread/INFO] [com.onarandombox.MultiverseCore.MultiverseCore/]: [Multiverse-Core] Loading Multiverse-Core v4.2.2-b812
+[18:39:30] [Server thread/INFO] [org.screamingsandals.bedwars.Main/]: [BedWars] Loading BedWars v0.2.15
+[18:39:30] [Server thread/INFO] [com.onarandombox.MultiversePortals.MultiversePortals/]: [Multiverse-Portals] Loading Multiverse-Portals v4.2.0-b826
+[18:39:30] [Server thread/INFO] [com.onarandombox.multiverseinventories.MultiverseInventories/]: [Multiverse-Inventories] Loading Multiverse-Inventories v4.2.1-b490
+[18:39:30] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit] Enabling WorldEdit v7.2.5+57d5ac9
+[18:39:30] [Server thread/INFO] [com.sk89q.wepif.PermissionsResolverManager/]: WEPIF: Using the Bukkit Permissions API.
+[18:39:36] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_16_R3 as the Bukkit adapter
+[18:39:40] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit] ====================================================
+[18:39:40] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  WorldEdit works better if you use Paper 
+[18:39:40] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  as your server software. 
+[18:39:40] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]   
+[18:39:40] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  Paper offers significant performance improvements,
+[18:39:40] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  bug fixes, security enhancements and optional
+[18:39:40] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  features for server owners to enhance their server.
+[18:39:40] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]   
+[18:39:40] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[18:39:40] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  better at diagnosing lag problems over v1.
+[18:39:40] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]   
+[18:39:40] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  All of your plugins should still work, and the
+[18:39:40] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[18:39:40] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]   
+[18:39:40] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[18:39:40] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit] ====================================================
+[18:39:40] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "calderara"
+[18:39:40] [Server thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformCommandManager/]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[18:39:41] [Server thread/INFO] [com.gmail.filoghost.holographicdisplays.HolographicDisplays/]: [HolographicDisplays] Enabling HolographicDisplays v2.4.6
+[18:39:41] [Server thread/INFO] [com.earth2me.essentials.Essentials/]: [Essentials] Enabling Essentials v2.18.2.0
+[18:39:42] [Server thread/ERROR] [com.earth2me.essentials.Essentials/]: [Essentials] You are running an unsupported server version!
+[18:39:42] [Server thread/INFO] [Essentials/]: Attempting to convert old kits in config.yml to new kits.yml
+[18:39:42] [Server thread/INFO] [Essentials/]: No kits found to migrate.
+[18:39:42] [Server thread/INFO] [Essentials/]: Loaded 25599 items from items.json.
+[18:39:42] [Server thread/INFO] [Essentials/]: Using locale it_IT
+[18:39:43] [Server thread/INFO] [com.earth2me.essentials.Essentials/]: [Essentials] ServerListPingEvent: Spigot iterator API
+[18:39:43] [Server thread/INFO] [com.earth2me.essentials.Essentials/]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[18:39:43] [Server thread/INFO] [com.earth2me.essentials.Essentials/]: [Essentials] Using config file enhanced permissions.
+[18:39:43] [Server thread/INFO] [com.earth2me.essentials.Essentials/]: [Essentials] Permissions listed in as player-commands will be given to all users.
+[18:39:43] [Server thread/INFO] [com.onarandombox.MultiverseCore.MultiverseCore/]: [Multiverse-Core] Enabling Multiverse-Core v4.2.2-b812
+[18:39:43] [Server thread/WARN] [com.onarandombox.MultiverseCore.MultiverseCore/]: [Multiverse-Core] "Multiverse-Core v4.2.2-b812" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[18:39:43] [Server thread/INFO] [Minecraft/]: [Multiverse-Core] We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[18:39:43] [Server thread/WARN] [Minecraft/]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: world
+[18:39:43] [Server thread/WARN] [Minecraft/]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
+[18:39:43] [Server thread/WARN] [Minecraft/]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: calderara_cubetti
+[18:39:43] [Server thread/WARN] [Minecraft/]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
+[18:39:43] [Server thread/INFO] [Minecraft/]: [Multiverse-Core] 2 - World(s) loaded.
+[18:39:43] [Server thread/WARN] [Minecraft/]: [Multiverse-Core] The world specified as the spawn world (null) did not exist!!
+[18:39:43] [Server thread/INFO] [Minecraft/]: [Multiverse-Core] Version 4.2.2-b812 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[18:39:43] [Server thread/INFO] [org.screamingsandals.bedwars.Main/]: [BedWars] Enabling BedWars v0.2.15
+[18:39:43] [Server thread/INFO] [org.screamingsandals.bedwars.Main/]: [BedWars] Successfully loaded messages for BedWars! Language: English
+[18:39:43] [Server thread/INFO] [org.screamingsandals.bedwars.Main/]: [BedWars] Loading statistics from YAML-File ...
+[18:39:44] [Server thread/INFO] [/]: ================  by ScreamingSandals <Misat11, Ceph>
+[18:39:44] [Server thread/INFO] [/]: + BedWars Zero +  Version: 0.2.15
+[18:39:44] [Server thread/INFO] [/]: ================  STABLE VERSION
+[18:39:44] [Server thread/WARN] [org.screamingsandals.bedwars.Main/]: [BedWars] Future versions of plugins from ScreamingSandals will require at least Java 11. Your server is not prepared for it. Update your Java or contact your hosting. Java 8 for commercial usage is already out of casual support! Java 9 and Java 10 were short-term support versions, these versions are already not supported.
+[18:39:44] [Server thread/WARN] [org.screamingsandals.bedwars.Main/]: [BedWars] Future versions of BedWars will require Minecraft version at least 1.13 and Java at least 11
+[18:39:44] [Server thread/INFO] [/]: Everything is loaded! If you like our work, consider visiting our Patreon! <3
+[18:39:44] [Server thread/INFO] [/]: https://www.patreon.com/screamingsandals
+[18:39:44] [Server thread/INFO] [com.onarandombox.MultiversePortals.MultiversePortals/]: [Multiverse-Portals] Enabling Multiverse-Portals v4.2.0-b826
+[18:39:44] [Server thread/INFO] [Minecraft/]: [Multiverse-Portals] 0 - Portals(s) loaded
+[18:39:44] [Server thread/INFO] [com.onarandombox.MultiversePortals.MultiversePortals/]: [Multiverse-Portals] Found WorldEdit. Using it for selections.
+[18:39:44] [Server thread/INFO] [Minecraft/]: [Multiverse-Portals 4.2.0-b826]  Enabled - By Rigby and fernferret
+[18:39:44] [Server thread/INFO] [com.onarandombox.multiverseinventories.MultiverseInventories/]: [Multiverse-Inventories] Enabling Multiverse-Inventories v4.2.1-b490
+[18:39:45] [Server thread/INFO] [Minecraft/]: [Multiverse-Inventories] The following worlds for group 'default' are not loaded: world
+[18:39:45] [Server thread/INFO] [Minecraft/]: [Multiverse-Inventories 4.2.1-b490] enabled.
+[18:39:45] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
+[18:39:45] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[18:39:46] [Netty Server IO #3/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[18:39:46] [Netty Server IO #0/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[18:39:46] [Netty Server IO #9/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[18:39:46] [Netty Server IO #1/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[18:39:46] [Netty Server IO #10/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[18:39:46] [Netty Server IO #7/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[18:39:46] [Netty Server IO #8/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[18:39:46] [Netty Server IO #13/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[18:39:46] [Netty Server IO #14/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[18:39:46] [Netty Server IO #4/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[18:39:46] [Netty Server IO #1/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[18:39:46] [Netty Server IO #3/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[18:39:46] [Netty Server IO #2/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[18:39:46] [Netty Server IO #12/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[18:39:46] [Netty Server IO #15/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[18:39:46] [Netty Server IO #11/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[18:39:46] [Netty Server IO #6/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[18:39:46] [Netty Server IO #5/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[18:39:46] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[18:39:47] [Netty Server IO #4/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[18:39:47] [Worker-Main-12/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 100%
+[18:39:48] [Netty Server IO #5/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[18:39:48] [Netty Server IO #6/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[18:39:49] [Server thread/WARN] [Minecraft/]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: calderara_cubetti
+[18:39:49] [Server thread/WARN] [Minecraft/]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
+[18:39:49] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 3.259 ms
+[18:39:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (9.046s)! For help, type "help"
+[18:39:49] [Server thread/INFO] [Minecraft/]: Timings Reset
+[18:39:51] [Craft Scheduler Thread - 8/INFO] [/]: [BW] New RELEASE version 0.2.26 of BedWars is available!
+[18:39:51] [Craft Scheduler Thread - 8/INFO] [/]: [BW] Download it from https://www.spigotmc.org/resources/63714/download?version=467325
+[18:39:51] [User Authenticator #1/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player MVgamer140 is b467d275-fde6-38fe-8e41-6b90dbefdd81
+[18:39:52] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: MVgamer140[/127.0.0.1:52151] logged in with entity id 13 at (25,5, 5, 553,5)
+[18:39:52] [Server thread/WARN] [Minecraft/]: [Multiverse-Core] The world specified as the spawn world (null) did not exist!!
+[18:39:52] [Server thread/ERROR] [Minecraft/]: Could not pass event PlayerJoinEvent to Multiverse-Core v4.2.2-b812
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:303) ~[forge:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:76) ~[forge:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[forge:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:593) ~[forge:?]
+	at net.minecraft.server.management.PlayerList.func_72355_a(PlayerList.java:213) ~[?:?]
+	at net.minecraft.network.login.ServerLoginNetHandler.func_147326_c(ServerLoginNetHandler.java:167) ~[?:?]
+	at net.minecraft.network.login.ServerLoginNetHandler.func_73660_a(ServerLoginNetHandler.java:75) ~[?:?]
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:237) ~[?:?]
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:142) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:1113) ~[?:?]
 	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:338) ~[?:?]
 	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:1003) ~[?:?]
 	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:818) ~[?:?]
 	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:269) ~[?:?]
 	at java.lang.Thread.run(Unknown Source) ~[?:1.8.0_341]
-Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 1 path $
-	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1559) ~[server-1.16.5-20210115.111550-extra.jar:?]
-	at com.google.gson.stream.JsonReader.checkLenient(JsonReader.java:1401) ~[server-1.16.5-20210115.111550-extra.jar:?]
-	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:593) ~[server-1.16.5-20210115.111550-extra.jar:?]
-	at com.google.gson.stream.JsonReader.peek(JsonReader.java:425) ~[server-1.16.5-20210115.111550-extra.jar:?]
-	at com.google.gson.internal.Streams.parse(Streams.java:46) ~[server-1.16.5-20210115.111550-extra.jar:?]
-	... 26 more
-[13:19:21] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /give @p netherite_hoe{display:{Name:'{"text":"Borro"}'},Enchantments:[{id:"minecraft:sharpness",lvl:100s}]} 1
-[13:19:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Gave 1 [Borro] to M4G0delbosco]
-[13:19:51] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /give @p netherite_hoe{display:{Name:'{"text":"Borra"}'},Enchantments:[{id:"minecraft:knockback",lvl:100s}]} 1
-[13:19:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Gave 1 [Borra] to M4G0delbosco]
-[13:20:01] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /gamemode survival
-[13:20:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [MVgamer140: Set own game mode to Survival Mode]
-[13:20:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: MVgamer140 was slain by M4G0delbosco using [Borro]
-[13:20:11] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /gamemode survival
-[13:20:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Set own game mode to Survival Mode]
-[13:20:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: MVgamer140 was slain by M4G0delbosco using [Borro]
-[13:20:27] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /execute as @e[type=armor_stand] run summon minecraft:lightning_bolt ~ ~ ~
-[13:20:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Armor Stand: Summoned new Lightning Bolt]
-[13:20:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Armor Stand: Summoned new Lightning Bolt]
-[13:20:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: MVgamer140 was slain by M4G0delbosco using [Borro]
-[13:20:30] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /execute as @e[type=armor_stand] run summon minecraft:lightning_bolt ~ ~ ~
-[13:20:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Armor Stand: Summoned new Lightning Bolt]
-[13:20:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Armor Stand: Summoned new Lightning Bolt]
-[13:20:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: M4G0delbosco was struck by lightning whilst fighting MVgamer140
-[13:20:35] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /execute at @e[type=armor_stand] run summon minecraft:lightning_bolt ~ ~ ~
-[13:20:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Summoned new Lightning Bolt]
-[13:20:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Summoned new Lightning Bolt]
-[13:20:49] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /give @p netherite_hoe{display:{Name:'{"text":"Borra"}'},Enchantments:[{id:"minecraft:knockback",lvl:1000s}]} 1
-[13:20:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Gave 1 [Borra] to M4G0delbosco]
-[13:21:13] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /gamemode creative
-[13:21:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Set own game mode to Creative Mode]
-[13:21:15] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /gamemode survival
-[13:21:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Set own game mode to Survival Mode]
-[13:21:30] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /give @p netherite_hoe{display:{Name:'{"text":"Borra"}'},Enchantments:[{id:"minecraft:knockback",lvl:200s}]} 1
-[13:21:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Gave 1 [Borra] to M4G0delbosco]
-[13:21:38] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /gamemode creative
-[13:21:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Set own game mode to Creative Mode]
-[13:22:00] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /give MVgamer140 minecraft:netherite_sword{Enchantments:[{id:knockback,lvl:100}]}
-[13:22:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [MVgamer140: Gave 1 [Netherite Sword] to MVgamer140]
-[13:22:14] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /gamemode survival M4G0delbosco
-[13:22:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [MVgamer140: Set M4G0delbosco's game mode to Survival Mode]
-[13:22:28] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /effect give MVgamer140 minecraft:instant_health 1 10000
-[13:22:34] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /effect give MVgamer140 minecraft:instant_health 1000 2
-[13:22:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [MVgamer140: Applied effect Instant Health to MVgamer140]
-[13:22:43] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /give @p netherite_hoe{Unbreakable:1b,Enchantments:[{id:"minecraft:sharpness",lvl:10s},{id:"minecraft:smite",lvl:10s},{id:"minecraft:bane_of_arthropods",lvl:10s},{id:"minecraft:fire_aspect",lvl:10s},{id:"minecraft:looting",lvl:10s},{id:"minecraft:sweeping"
-[13:22:48] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /gamemode creative
-[13:22:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Set own game mode to Creative Mode]
-[13:22:56] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /give M4G0delbosco minecraft:command_block
-[13:22:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Gave 1 [Command Block] to M4G0delbosco]
-[13:22:58] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /summon minecraft:creeper
-[13:22:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [MVgamer140: Summoned new Creeper]
-[13:24:05] [Server thread/INFO] [/]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
-[13:24:05] [Server thread/INFO] [/]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
-[13:24:05] [Server thread/INFO] [Minecraft/]: Debug logging is enabled
-[13:24:05] [Server thread/INFO] [/]: Server Ping Player Sample Count: 12
-[13:24:05] [Server thread/INFO] [Minecraft/]: Using 4 threads for Netty based IO
-[13:24:05] [Server thread/INFO] [Minecraft/]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand()
-[13:24:05] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, bukkit, mohist-1.16.5-1073-universal.jar
-[13:24:05] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 927 recipes
-[13:24:06] [Server thread/INFO] [Minecraft/]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand()
-[13:24:06] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, bukkit, mohist-1.16.5-1073-universal.jar
-[13:24:06] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 927 recipes
-[13:24:07] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
-[13:24:07] [Server thread/INFO] [/]: CONSOLE: Reload complete.
-[13:24:07] [Server thread/INFO] [Minecraft/]: Timings Reset
-[13:24:17] [Server thread/INFO] [/]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
-[13:24:17] [Server thread/INFO] [/]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
-[13:24:17] [Server thread/INFO] [Minecraft/]: Debug logging is enabled
-[13:24:17] [Server thread/INFO] [/]: Server Ping Player Sample Count: 12
-[13:24:17] [Server thread/INFO] [Minecraft/]: Using 4 threads for Netty based IO
-[13:24:17] [Server thread/INFO] [Minecraft/]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand()
-[13:24:17] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, bukkit, mohist-1.16.5-1073-universal.jar
-[13:24:17] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 927 recipes
-[13:24:18] [Server thread/INFO] [Minecraft/]: ModsCommandDispatcher register com.mohistmc.forge.ModCustomCommand()
-[13:24:18] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, bukkit, mohist-1.16.5-1073-universal.jar
-[13:24:18] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 927 recipes
-[13:24:19] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
-[13:24:19] [Server thread/INFO] [/]: CONSOLE: Reload complete.
-[13:24:19] [Server thread/INFO] [Minecraft/]: Timings Reset
-[13:24:34] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /give M4G0delbosco minecraft:command_block
-[13:24:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Gave 1 [Command Block] to M4G0delbosco]
-[13:25:23] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /gamerule commandBlockOutput true
-[13:25:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Gamerule commandBlockOutput is now set to: true]
-[13:25:27] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /give M4G0delbosco minecraft:command_block
-[13:25:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Gave 1 [Command Block] to M4G0delbosco]
-[13:25:50] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /gamemode survival M4G0delbosco
-[13:25:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [MVgamer140: Set M4G0delbosco's game mode to Survival Mode]
-[13:26:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: M4G0delbosco was slain by MVgamer140
-[13:26:21] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /replaceitem entity M4G0delbosco armor.head beacon{Enchantments:[{id:"minecraft:protection",lvl:100s}]}
-[13:26:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Replaced a slot on M4G0delbosco with [Beacon]]
-[13:26:45] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /replaceitem entity M4G0delbosco armor.head minecraft:diamond_helmet{Enchantments:[{id:"minecraft:protection",lvl:100s}]}
-[13:26:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Replaced a slot on M4G0delbosco with [Diamond Helmet]]
-[13:26:54] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /gamemode creative
-[13:26:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Set own game mode to Creative Mode]
-[13:27:19] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /give @p bow{Unbreakable:1b,Enchantments:[{id:"minecraft:punch",lvl:50s}]} 1
-[13:27:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Gave 1 [Bow] to M4G0delbosco]
-[13:27:30] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /give @p bow{Unbreakable:1b,Enchantments:[{id:"minecraft:punch",lvl:50s},{id:"minecraft:infinity",lvl:1s}]} 1
-[13:27:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Gave 1 [Bow] to M4G0delbosco]
-[13:27:59] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /give @p wooden_hoe{Unbreakable:1b,Enchantments:[{id:"minecraft:sharpness",lvl:50s}]} 1
-[13:27:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Gave 1 [Wooden Hoe] to M4G0delbosco]
-[13:28:08] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: MVgamer140 was slain by M4G0delbosco
-[13:28:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: MVgamer140 was shot by M4G0delbosco
-[13:28:40] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /gamemode survival
-[13:28:40] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Set own game mode to Survival Mode]
-[13:29:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: MVgamer140 was shot by M4G0delbosco
-[13:29:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: MVgamer140 was slain by M4G0delbosco
-[13:29:16] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /gamemode creative
-[13:29:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Set own game mode to Creative Mode]
-[13:29:57] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /give MVgamer140 minecraft:wooden_sword{Enchantments:[{id:fireaspect,lvl:1000000}]}
-[13:29:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [MVgamer140: Gave 1 [Wooden Sword] to MVgamer140]
-[13:30:11] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /summon minecraft:iron_golem
-[13:30:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [MVgamer140: Summoned new Iron Golem]
-[13:30:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: MVgamer140 was slain by Iron Golem
-[13:30:16] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /give @p crossbow{Unbreakable:1b,Enchantments:[{id:"minecraft:punch",lvl:10s},{id:"minecraft:multishot",lvl:5s},{id:"minecraft:quick_charge",lvl:5s}]} 1
-[13:30:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Gave 1 [Crossbow] to M4G0delbosco]
-[13:30:29] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /give MVgamer140 minecraft:wooden_sword{Enchantments:[{id:fireAspect,lvl:1000000}]}
-[13:30:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [MVgamer140: Gave 1 [Wooden Sword] to MVgamer140]
-[13:30:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: MVgamer140 was shot by M4G0delbosco
-[13:30:44] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /gamemode survival
-[13:30:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Set own game mode to Survival Mode]
-[13:30:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: MVgamer140 was shot by M4G0delbosco
-[13:30:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: MVgamer140 was shot by M4G0delbosco
-[13:31:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: MVgamer140 was shot by M4G0delbosco
-[13:31:05] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /gamemode creative
-[13:31:05] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [MVgamer140: Set own game mode to Creative Mode]
-[13:31:09] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /gamemode creative
-[13:31:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Set own game mode to Creative Mode]
-[13:31:28] [Async Chat Thread - 3/INFO] [/]: <M4G0delbosco> ./give @p crossbow{Unbreakable:1b,Enchantments:[{id:"minecraft:punch",lvl:10s},{id:"minecraft:multishot",lvl:5s},{id:"minecraft:quick_charge",lvl:5s}]} 1
-[13:31:30] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /give MVgamer140 minecraft:wooden_sword{Enchantments:[{id:fireAspect,lvl:100000}]}
-[13:31:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [MVgamer140: Gave 1 [Wooden Sword] to MVgamer140]
-[13:32:18] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /give @p trident{Unbreakable:1b,Enchantments:[{id:"minecraft:sharpness",lvl:10s},{id:"minecraft:knockback",lvl:1s},{id:"minecraft:loyalty",lvl:10s},{id:"minecraft:impaling",lvl:10s}]} 1
-[13:32:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Gave 1 [Trident] to M4G0delbosco]
-[13:32:26] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /summon minecraft:iron_golem
-[13:32:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Summoned new Iron Golem]
-[13:32:43] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /gamemode survival
-[13:32:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Set own game mode to Survival Mode]
-[13:32:56] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /gamemode creative
-[13:32:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Set own game mode to Creative Mode]
-[13:33:39] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /give @p shield{Unbreakable:1b,Enchantments:[{id:"minecraft:knockback",lvl:50s}]} 1
-[13:33:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Gave 1 [Shield] to M4G0delbosco]
-[13:34:06] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /give MVgamer140 minecraft:crossbow{Enchantments:[{id:punch,lvl:100s},{id:multishot,lvl:20s},{id:quick_carge,lvl:20s},{id:fire,lvl:100s}]}
-[13:34:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [MVgamer140: Gave 1 [Crossbow] to MVgamer140]
-[13:34:24] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /replaceitem entity M4G0delbosco armor.head minecraft:beacon
-[13:34:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Replaced a slot on M4G0delbosco with [Beacon]]
-[13:34:35] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /gamemode survival
-[13:34:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Set own game mode to Survival Mode]
-[13:34:47] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco moved wrongly!
-[13:34:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: M4G0delbosco was slain by MVgamer140
-[13:35:40] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /give MVgamer140 minecraft:netherite_sword{Enchatments:{id:sharpness,lvl:10000}}
-[13:35:40] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [MVgamer140: Gave 1 [Netherite Sword] to MVgamer140]
-[13:35:50] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /give MVgamer140 minecraft:netherite_sword{Enchatments:{id:sharpeness,lvl:10000}}
-[13:35:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [MVgamer140: Gave 1 [Netherite Sword] to MVgamer140]
-[13:36:16] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /give MVgamer140 minecraft:netherite_sword{Enchatments:{id:sharpness,lvl:10000}}
-[13:36:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [MVgamer140: Gave 1 [Netherite Sword] to MVgamer140]
-[13:36:17] [Async Chat Thread - 4/INFO] [/]: <M4G0delbosco> sharpness
-[13:36:26] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /give MVgamer140 minecraft:netherite_sword{Enchatments:{id:sharpness,lvl:1000}}
-[13:36:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [MVgamer140: Gave 1 [Netherite Sword] to MVgamer140]
-[13:36:31] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /gamemode survival MVgamer140
-[13:36:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Set MVgamer140's game mode to Survival Mode]
-[13:36:33] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /gamemode survival
-[13:37:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: MVgamer140 was impaled by M4G0delbosco
-[13:37:40] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: MVgamer140 was shot by M4G0delbosco
-[13:37:42] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco lost connection: Disconnected
-[13:37:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: M4G0delbosco left the game
-[13:38:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
-[13:38:21] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[13:38:21] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[13:38:21] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 lost connection: Server closed
-[13:38:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: MVgamer140 left the game
-[13:38:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[13:38:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[calderara_cubetti]'/minecraft:overworld
-[13:38:22] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (calderara): All chunks are saved
-[13:38:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DIM-1]'/minecraft:the_nether
-[13:38:22] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13:38:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DIM1]'/minecraft:the_end
-[13:38:22] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[13:38:22] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (calderara): All chunks are saved
-[13:38:22] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13:38:22] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+Caused by: java.lang.NullPointerException
+	at com.onarandombox.MultiverseCore.listeners.MVPlayerListener.playerJoin(MVPlayerListener.java:116) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_341]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_341]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_341]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_341]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:301) ~[forge:?]
+	... 14 more
+[18:39:53] [Server thread/INFO] [/]: Benvenuto MVgamer140 :D
+[18:39:53] [User Authenticator #2/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player M4G0delbosco is 3f01670c-6f40-3bf7-b119-1b1ebf959e98
+[18:39:53] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: M4G0delbosco[/10.8.0.110:50916] logged in with entity id 14 at (25,5, 5, 553,5)
+[18:39:55] [Server thread/WARN] [Minecraft/]: [Multiverse-Core] The world specified as the spawn world (null) did not exist!!
+[18:39:55] [Server thread/ERROR] [Minecraft/]: Could not pass event PlayerJoinEvent to Multiverse-Core v4.2.2-b812
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:303) ~[forge:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:76) ~[forge:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[forge:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:593) ~[forge:?]
+	at net.minecraft.server.management.PlayerList.func_72355_a(PlayerList.java:213) ~[?:?]
+	at net.minecraft.network.login.ServerLoginNetHandler.func_147326_c(ServerLoginNetHandler.java:167) ~[?:?]
+	at net.minecraft.network.login.ServerLoginNetHandler.func_73660_a(ServerLoginNetHandler.java:75) ~[?:?]
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:237) ~[?:?]
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:142) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:1113) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:338) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:1003) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:818) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:269) ~[?:?]
+	at java.lang.Thread.run(Unknown Source) ~[?:1.8.0_341]
+Caused by: java.lang.NullPointerException
+	at com.onarandombox.MultiverseCore.listeners.MVPlayerListener.playerJoin(MVPlayerListener.java:116) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_341]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_341]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_341]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_341]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:301) ~[forge:?]
+	... 14 more
+[18:39:55] [Server thread/INFO] [/]: Benvenuto M4G0delbosco :D
+[18:40:09] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: //schematic load
+[18:40:20] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: //schematic list
+[18:40:36] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: //schematic load 191_3_201
+[18:40:37] [WorldEdit Task Executor - 0/INFO] [com.sk89q.worldedit.command.SchematicCommands/]: M4G0delbosco loaded C:\Users\nasti\Desktop\github\calderara-server\new - server\plugins\WorldEdit\schematics\191_3_201.schem
+[18:40:42] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /tp 191 3 201
+[18:40:53] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: //paste
+[18:41:14] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /tp MVgamer140 M4G0delbosco
+[18:41:30] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /beecannon
+[18:41:34] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /beecannon
+[18:41:39] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /beecannon
+[18:41:45] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /beezooka
+[18:41:51] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /beezooka
+[18:41:52] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /beezooka
+[18:41:52] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /beezooka
+[18:41:53] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /beezooka
+[18:41:53] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /beezookat
+[18:41:54] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /beezooka
+[18:41:54] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /beezooka
+[18:41:55] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /beezooka
+[18:41:55] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /beezooka
+[18:41:56] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /beezooka
+[18:41:56] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /beezooka
+[18:41:56] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /beezooka
+[18:41:57] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /beezooka
+[18:41:57] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /beezooka
+[18:41:57] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /beezooka
+[18:41:58] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /beezooka
+[18:41:58] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /beezooka
+[18:41:58] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /beezooka
+[18:42:13] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /fill 310 4 153
+[18:42:21] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /fill 310 4 153 291 4 115 air
+[18:42:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [MVgamer140: Successfully filled 204 blocks]
+[18:42:29] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /gamemode spectator
+[18:42:42] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: //navwand
+[18:42:52] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: //navwand
+[18:43:36] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /flyspeed 5
+[18:44:22] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /gamemode creative
+[18:44:25] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /effect give M4G0delbosco minecraft:speed 300000 4 true
+[18:44:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [M4G0delbosco: Applied effect Speed to M4G0delbosco]
+[18:44:29] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /tp M4G0delbosco MVgamer140
+[18:45:19] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /tp M4G0delbosco MVgamer140
+[18:46:00] [Async Chat Thread - 2/INFO] [/]: <M4G0delbosco> .//navwand
+[18:46:15] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: //navwand
+[18:46:28] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /flyspeed 10
+[18:46:59] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /flyspeed 30
+[18:47:01] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /flyspeed 500
+[18:47:11] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /flyspeed fly 500
+[18:47:27] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /flyspeed fly
+[18:47:30] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /flyspeed fly 0
+[18:47:32] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /flyspeed fly 1
+[18:47:44] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /gamemode spectator
+[18:48:00] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /flyspeed 1
+[18:48:14] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /gamemode creative
+[18:48:21] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: //wand
+[18:48:22] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /give MVgamer140 command_block
+[18:48:30] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: //set air
+[18:49:26] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: //set air
+[18:49:28] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: //set air
+[18:49:29] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: //set air
+[18:49:29] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: //set air
+[18:49:30] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: //set air
+[18:49:30] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: //set air
+[18:49:30] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: //set air
+[18:49:31] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /gamemode spectator
+[18:49:31] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: //set air
+[18:49:31] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: //set air
+[18:49:31] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: //set air
+[18:49:34] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: //set air
+[18:49:42] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: //set air
+[18:49:43] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: //set air
+[18:49:44] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: //set air
+[18:49:50] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: //set air
+[18:49:52] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: //set air
+[18:49:57] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /gamemode creative
+[18:51:22] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: //set air
+[18:51:32] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: //set air
+[18:51:43] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: //set air
+[18:53:03] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco lost connection: Disconnected
+[18:53:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: M4G0delbosco ci ha abbandonato :(
+[18:58:16] [User Authenticator #3/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player M4G0delbosco is 3f01670c-6f40-3bf7-b119-1b1ebf959e98
+[18:58:16] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: M4G0delbosco[/10.8.0.110:62153] logged in with entity id 564 at (23,943, 0,323, 553,322)
+[18:58:17] [Server thread/INFO] [/]: Benvenuto M4G0delbosco :D
+[18:58:26] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: //set air
+[18:58:37] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: //set air
+[18:59:53] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: //set observer[facing=up]
+[18:59:58] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: //set observer[facing=down]
+[19:00:22] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: //wand
+[19:00:35] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: //copy
+[19:00:47] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: //set air
+[19:00:49] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: //paste
+[19:00:58] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: //set redstone_lamp
+[19:01:20] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: //replace dirt white_concrete
+[19:03:16] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: //wand
+[19:03:32] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: //replace air white_concrete
+[19:06:24] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: //fill bricks
+[19:06:37] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: //fill bricks
+[19:06:57] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /flyspeed 10
+[19:07:20] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: //set bricks
+[19:07:28] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /flyspeed 5
+[19:07:47] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /flyspeed 2
+[19:08:01] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /gamemode spectator
+[19:08:06] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /gamemode creative
+[19:08:22] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /time set night
+[19:09:48] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /gamemode spectator
+[19:09:52] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /gamemode creative
+[19:10:20] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /gamemode survival MVgamer140
+[19:10:40] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: MVgamer140 was slain by M4G0delbosco
+[19:10:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: MVgamer140 was slain by M4G0delbosco
+[19:11:13] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /strike
+[19:11:15] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /strike
+[19:11:24] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /strike
+[19:11:46] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /gamemode creative
+[19:11:51] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /strike MVgamer140
+[19:11:55] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /strike MVgamer140
+[19:11:55] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /strike MVgamer140
+[19:11:56] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /strike MVgamer140
+[19:11:56] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /strike MVgamer140
+[19:11:56] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /strike MVgamer140
+[19:11:57] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /strike MVgamer140
+[19:11:57] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /strike MVgamer140
+[19:12:00] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /time set day
+[19:12:05] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /kill MVgamer140
+[19:12:05] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: MVgamer140 died
+[19:12:10] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /strike MVgamer140
+[19:12:12] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /strike MVgamer140
+[19:12:12] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /strike MVgamer140
+[19:12:13] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /strike MVgamer140
+[19:12:13] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /strike MVgamer140
+[19:12:14] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /strike MVgamer140
+[19:12:14] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /strike MVgamer140
+[19:12:14] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /strike MVgamer140
+[19:12:15] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /strike MVgamer140
+[19:12:15] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /strike MVgamer140
+[19:12:16] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /strike MVgamer140
+[19:12:16] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /strike MVgamer140
+[19:12:16] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /strike MVgamer140
+[19:12:17] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /strike MVgamer140
+[19:12:17] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /strike MVgamer140
+[19:12:17] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /strike MVgamer140
+[19:12:18] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /strike MVgamer140
+[19:12:21] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /god
+[19:12:23] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /flyspeed 1
+[19:12:24] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /gamemode spectator
+[19:12:25] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /gamemode survival
+[19:12:35] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /flyspeed fly 1
+[19:12:35] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /god
+[19:12:36] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /god
+[19:12:42] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /flyspeed fly 5
+[19:12:44] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /gamemode survival MVgamer140
+[19:13:46] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /gamemode spectator
+[19:13:48] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /gamemode creative
+[19:13:50] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /gamemode spectator
+[19:13:52] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /gamemode survival
+[19:14:01] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /heal MVgamer140
+[19:14:08] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /effect give MVgamer140 minecraft:regeneration 10000 2 true
+[19:14:08] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [MVgamer140: Applied effect Regeneration to MVgamer140]
+[19:14:09] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /heal M4G0delbosco
+[19:15:03] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /strike MVgamer140
+[19:15:05] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /strike MVgamer140
+[19:15:05] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /strike MVgamer140
+[19:15:06] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /strike MVgamer140
+[19:15:06] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /strike MVgamer140
+[19:15:06] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /strike MVgamer140
+[19:15:07] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /strike MVgamer140
+[19:15:07] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /strike MVgamer140
+[19:15:07] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /strike MVgamer140
+[19:15:08] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /strike MVgamer140
+[19:15:08] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: MVgamer140 died because of M4G0delbosco
+[19:15:08] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /strike MVgamer140
+[19:15:11] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /god
+[19:15:13] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /gamemode spectator
+[19:15:14] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /gamemode survival
+[19:15:15] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /gamemode creative
+[19:15:20] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: //thaw
+[19:15:23] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /fly
+[19:15:25] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /thor
+[19:15:29] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /thor MVgamer140
+[19:15:48] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 moved too quickly! -16,0,-7
+[19:15:51] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 moved too quickly! 30,0,11
+[19:15:51] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 moved too quickly! 30,0,11
+[19:16:01] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /balance
+[19:16:04] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /suicide
+[19:16:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: MVgamer140 died
+[19:16:10] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /baltop 1
+[19:16:20] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /money M4G0delbosco
+[19:16:23] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /money M4G0delbosco 10000
+[19:16:34] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /call MVgamer140
+[19:16:46] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /money MVgamer140
+[19:16:52] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /money MVgamer140 add 5
+[19:16:54] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /vanish
+[19:16:58] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /money MVgamer140
+[19:17:14] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /vanish
+[19:17:28] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /gamemode
+[19:17:31] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /gamemode 2
+[19:17:35] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 issued server command: /gamemode 1
+[19:18:13] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /gamemode survival
+[19:18:17] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /beecannon
+[19:18:21] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /beezooka
+[19:18:28] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco issued server command: /gamemode creative
+[19:18:53] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: M4G0delbosco lost connection: Disconnected
+[19:18:53] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: M4G0delbosco ci ha abbandonato :(
+[19:19:57] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: MVgamer140 lost connection: Disconnected
+[19:19:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: MVgamer140 ci ha abbandonato :(
+[19:20:05] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
+[19:20:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[19:20:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[19:20:06] [Server thread/INFO] [com.onarandombox.multiverseinventories.MultiverseInventories/]: [Multiverse-Inventories] Disabling Multiverse-Inventories v4.2.1-b490
+[19:20:06] [Server thread/INFO] [com.onarandombox.MultiversePortals.MultiversePortals/]: [Multiverse-Portals] Disabling Multiverse-Portals v4.2.0-b826
+[19:20:06] [Server thread/INFO] [org.screamingsandals.bedwars.Main/]: [BedWars] Disabling BedWars v0.2.15
+[19:20:06] [Server thread/INFO] [com.onarandombox.MultiverseCore.MultiverseCore/]: [Multiverse-Core] Disabling Multiverse-Core v4.2.2-b812
+[19:20:06] [Server thread/INFO] [com.earth2me.essentials.Essentials/]: [Essentials] Disabling Essentials v2.18.2.0
+[19:20:06] [Server thread/INFO] [com.gmail.filoghost.holographicdisplays.HolographicDisplays/]: [HolographicDisplays] Disabling HolographicDisplays v2.4.6
+[19:20:06] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit] Disabling WorldEdit v7.2.5+57d5ac9
+[19:20:06] [Server thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[19:20:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[19:20:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[calderara_cubetti]'/minecraft:overworld
+[19:20:07] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (calderara): All chunks are saved
+[19:20:07] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DIM-1]'/minecraft:the_nether
+[19:20:07] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:20:07] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DIM1]'/minecraft:the_end
+[19:20:07] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:20:07] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (calderara): All chunks are saved
+[19:20:07] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:20:07] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
